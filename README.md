@@ -5,7 +5,7 @@ A local-first audio/video intelligence tool that transcribes English, Hindi, and
 ## ✨ Features
 
 - **Multi-language transcription**
-  - English meetings: transcribed using local Whisper AI (free, offline)
+  - English meetings: transcribed using local Whisper AI
   - Hindi & Hinglish meetings: transcribed using Sarvam AI
 - **Meeting intelligence**
   - Bullet-point summary of the full video
@@ -15,20 +15,20 @@ A local-first audio/video intelligence tool that transcribes English, Hindi, and
 - **Chat with your meeting**
   - RAG-powered Q&A over your meeting transcript and summary
   - Vector database: ChromaDB
-  - Embeddings: HuggingFace (local, free)
+  - Embeddings: HuggingFace
 
 ## 🛠️ Tech Stack
 
 - **Language**: Python
 - **Transcription**
-  - OpenAI Whisper (local, free) for English
+  - OpenAI Whisper for English (local)
   - Sarvam AI for Hindi/Hinglish
 - **LLM & Orchestration**
-  - LangChain LCEL (modern pipeline)
-  - Mistral AI (free API) for summarization, extraction, and chat
+  - LangChain LCEL 
+  - Mistral AI for summarization, extraction, and chat
 - **RAG**
-  - ChromaDB (vector database)
-  - HuggingFace Embeddings (local, free)
+  - ChromaDB 
+  - HuggingFace Embeddings
 
 ## 📦 Installation
 
@@ -38,7 +38,7 @@ A local-first audio/video intelligence tool that transcribes English, Hindi, and
 git clone https://github.com/Shreshhthh/voice-to-insight-assistant.git
 ```
 
-2. **Create a virtual environment (recommended)**
+2. **Create a virtual environment**
 
 ```bash
 python -m venv venv
