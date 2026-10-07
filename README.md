@@ -122,7 +122,3 @@ AI-Video-Assistant-/
 - Whisper runs locally, so large models may need:
   - Sufficient RAM (8–16 GB recommended)
   - First run may download model weights
-- For production use, consider:
-  - Caching transcripts and summaries
-  - Adding user authentication
-  - Storing meetings in a database instead of only in-memory ChromaDB
