@@ -1,0 +1,25 @@
+# Virtual environments
+vtia/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Audio, video, and model weights
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.webm
+downloads/
+output/
+models/
+.cache/
